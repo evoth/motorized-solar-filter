@@ -1,0 +1,3 @@
+- [Swap-able Servo Mount](https://www.thingiverse.com/thing:2988830) by [Moarmau5](https://www.thingiverse.com/Moarmau5) on [Thingiverse](https://www.thingiverse.com/)
+- [Tri-Glide Webbing Slide](https://www.printables.com/en/model/305674-tri-glide-webbing-slide-threaded-and-no-thread) by [Adam](https://www.printables.com/@Adam) on [Printables.com](https://www.printables.com/)
+- [SG90 9g Micro Servo](https://www.autodesk.com/community/gallery/project/132949/sg90-9g-micro-servo) by [ccirone2](https://www.autodesk.com/community/gallery/profile/com-000093422339) on [Autodesk Community Gallery](https://www.autodesk.com/community/gallery)
