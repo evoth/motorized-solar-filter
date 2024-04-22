@@ -37,3 +37,13 @@
 - Servo holder:
     - Clearances can be tightened to reduce play.
     - Top support should be returned to its previous height (making it taller was an accident)
+
+## Version 3
+
+**Functionality:**
+- Filter (outer):
+    - Satisfactory
+- Filter (inner):
+    - Satisfactory
+- Servo holder:
+    - Satisfactory

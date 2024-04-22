@@ -1,28 +1,23 @@
-#include <Servo.h> 
-Servo servo;
+#include <ServoEasing.hpp> 
+ServoEasing servo;
 
-int startpoint = 15;
-int endpoint = 130;
-int servo_step = 2;
+int SERVO_PIN = 4;
+int startpoint = 100;
+int endpoint = 180;
+int speed = 60;
 
 void setup() {
-  servo.attach(4, 544, 2400);
+  servo.attach(SERVO_PIN, endpoint, 544, 2400);
+  servo.setEasingType(EASE_CUBIC_IN_OUT);
 }
 
 void loop() {
-
-  for(int deg = 90; deg <= endpoint; deg += servo_step) {
-    servo.write(deg);
-  }
-
+  pinMode(SERVO_PIN, INPUT);
   delay(5000);
-
-  for(int deg = endpoint; deg >= startpoint; deg -= servo_step) {
-    servo.write(deg);
-  }
+  pinMode(SERVO_PIN, OUTPUT);
+  servo.easeTo(startpoint, speed);
+  pinMode(SERVO_PIN, INPUT);
   delay(5000);
-
-  for(int deg = startpoint; deg <= 90; deg += servo_step) {
-    servo.write(deg);
-  }
+  pinMode(SERVO_PIN, OUTPUT);
+  servo.easeTo(endpoint, speed);
 }
